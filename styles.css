@@ -1,9 +1,14 @@
 .container {
     display: flex;
     flex-wrap: wrap;
+    border: solid 1px;
 }
 
 .square {
     aspect-ratio: 1/1;
     width: 6.25%;
+}
+
+#newGridBtn {
+    margin-bottom: 20px;
 }
